@@ -281,7 +281,8 @@ margin-left: 50px;
     /* margin-bottom: 50px; */
     margin-right: 8px;
     display: inline-block;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, 
+    background cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .hero-list-btn:hover, 
@@ -509,7 +510,7 @@ margin-left: 0;
     margin: 15px;
     border: 1px solid #ECECEC;
     cursor: pointer;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .portfolio-list-item:hover, 
 .portfolio-list-item:focus {
@@ -560,7 +561,7 @@ margin-left: 0;
     box-sizing: border-box;
     border-radius: 4px;
     color: #AFB1B8;
-    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .about-clients-icon {
     fill: #AFB1B8;
@@ -656,7 +657,7 @@ margin-left: 0;
     align-items: center;
     border-radius: 50%;
     margin-right: 10px;
-    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-social-icon {
     fill: #ffffff;

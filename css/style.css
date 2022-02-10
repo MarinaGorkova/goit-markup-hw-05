@@ -403,6 +403,24 @@ margin-left: 0;
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
+    position: relative;
+}
+.about-list-img-text {
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    width: 370px;
+    height: 70px;
+    padding: 27px 82px 27px 82px;
+    display: flex;
+    transform: translateY(-100%);
+    
 }
 /* ----------TEAM----------- */
 .about-team {
@@ -752,7 +770,7 @@ margin-left: 0;
 }
 .modal:hover {
     background-color: rgba(0, 0, 0, 0.2);
-    
+    transition: transform 500ms;
   }
 .modal-close {
     width: 30px;

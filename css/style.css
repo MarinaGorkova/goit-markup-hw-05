@@ -547,11 +547,12 @@ margin-left: 0;
     background-color: rgba(33, 150, 243, 0.9);
     color: #FFFFFF;
     font-weight: normal;
-    line-height: 28px;
+    line-height: 35px;
     padding: 63px 24px 63px 24px;
     height: 100%;
     transform: translateY(100%);
     transition: transform 300ms linear;
+    
 }
 .portfolio-list-item {
     flex-basis: calc(100% / 3 - 30px);
@@ -769,7 +770,7 @@ margin-left: 0;
     
 }
 .modal:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     transition: transform 500ms;
   }
 .modal-close {
